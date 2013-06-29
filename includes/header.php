@@ -9,6 +9,6 @@
 <link href="glyphs/ss-gizmo/ss-gizmo.css" rel="stylesheet" type="text/css" />
 <link href="glyphs/ss-social/ss-social.css" rel="stylesheet" type="text/css" />
 
-<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,400italic,600,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Ruda:400,700,900' rel='stylesheet' type='text/css'>
 
 <script src="js/vendor/modernizr-2.6.2.min.js"></script>
