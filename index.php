@@ -25,40 +25,48 @@
     		</header>
     	</div>
 
-    	<main>
+    	<main class="clearfix mosaicflow">
 
-    		<section class="gallery-item">
+    		<section class="gallery-item mosaicflow__item">
     			<div class="frame">
     				<img class="thumbnail" src="img/iphone.jpg">
 
     				<div class="thumbtext">
+                        <h1>Zac Gorman</h1>
+                        <h2>Captain Olimar</h2>
     				</div>
     			</div>
     		</section>
 
-    		<section class="gallery-item">
+    		<section class="gallery-item mosaicflow__item">
     			<div class="frame">
     				<img class="thumbnail" src="img/iphone.jpg">
 
     				<div class="thumbtext">
+                        <h1>Zac Gorman</h1>
+                        <h2>Captain Olimar</h2>
     				</div>
     			</div>
     		</section>
 
-    		<section class="gallery-item">
+    		<section class="gallery-item mosaicflow__item">
     			<div class="frame">
     				<img class="thumbnail" src="img/iphone.jpg">
 
     				<div class="thumbtext">
+                        <h1>Zac Gorman</h1>
+                        <h2>Captain Olimar</h2>
     				</div>
     			</div>
     		</section>
 
-    		<section class="gallery-item">
+    		<section class="gallery-item mosaicflow__item">
     			<div class="frame">
     				<img class="thumbnail" src="img/iphone.jpg">
 
     				<div class="thumbtext">
+                        <h1>Zac Gorman</h1>
+                        <h2>Captain Olimar</h2>
     				</div>
     			</div>
     		</section>
