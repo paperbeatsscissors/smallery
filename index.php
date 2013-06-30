@@ -25,9 +25,9 @@
     		</header>
     	</div>
 
-    	<main class="clearfix mosaicflow">
+    	<main class="clearfix">
 
-    		<section class="gallery-item mosaicflow__item">
+    		<section id="modal1" class="gallery-item">
     			<div class="frame">
     				<img class="thumbnail" src="img/iphone.jpg">
 
@@ -38,7 +38,18 @@
     			</div>
     		</section>
 
-    		<section class="gallery-item mosaicflow__item">
+            <div id="modal1" class="lightbox">
+                <img src="img/iphone.jpg">
+
+                <h1>Zac Gorman</h1>
+                <h2>Captain Olimar</h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+
+    		<section id="modal2" class="gallery-item">
     			<div class="frame">
     				<img class="thumbnail" src="img/iphone.jpg">
 
@@ -49,7 +60,7 @@
     			</div>
     		</section>
 
-    		<section class="gallery-item mosaicflow__item">
+    		<section id="modal3" class="gallery-item">
     			<div class="frame">
     				<img class="thumbnail" src="img/iphone.jpg">
 
@@ -60,7 +71,7 @@
     			</div>
     		</section>
 
-    		<section class="gallery-item mosaicflow__item">
+    		<section id="modal4" class="gallery-item">
     			<div class="frame">
     				<img class="thumbnail" src="img/iphone.jpg">
 
@@ -70,6 +81,28 @@
     				</div>
     			</div>
     		</section>
+
+            <section id="modal4" class="gallery-item">
+                <div class="frame">
+                    <img class="thumbnail" src="img/iphone.jpg">
+
+                    <div class="thumbtext">
+                        <h1>Zac Gorman</h1>
+                        <h2>Captain Olimar</h2>
+                    </div>
+                </div>
+            </section>
+
+            <section id="modal4" class="gallery-item">
+                <div class="frame">
+                    <img class="thumbnail" src="img/iphone.jpg">
+
+                    <div class="thumbtext">
+                        <h1>Zac Gorman</h1>
+                        <h2>Captain Olimar</h2>
+                    </div>
+                </div>
+            </section>
 
     	</main>
 

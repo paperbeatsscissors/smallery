@@ -278,6 +278,9 @@ main {
 	top: 0px;
 	left: 0px;
 	z-index: 1;
+	opacity:0.25;
+	filter:alpha(opacity=25);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#FFFFFF);
 	-webkit-animation: blurout 0.5s ease;
 	-moz-animation: blurout 0.5s ease;
 	-o-animation: blurout 0.5s ease;
@@ -343,6 +346,22 @@ main {
 	font-weight: 400;
 	padding: 12px 12px 0px;
 	border-top: solid 1px #86989c;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------- Lightbox styles */
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+.lightbox {
+	display: none;
+	width: 320px;
+	min-height: 320px;
+	padding:12px 12px 48px;
+}
+
+.lightbox img {
+	width: 296px;
+	height: auto;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------- */
