@@ -2,7 +2,7 @@
 /* ------------------------------------------------------------------------------------------------------- Base styles */
 /* ------------------------------------------------------------------------------------------------------------------- */
 
-body, main, div, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dt, dd, ol, ul, li, fieldset, form,
+body, main, div, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dt, dd, ol, ul, li, fieldset, form, input,
 label, legend, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section {
 	margin: 0;
 	padding: 0;
@@ -159,7 +159,10 @@ h2 {
 .splash {
 	width: 100%;
 	height: auto;
-	background:#142124 url(../img/feat-bg.png) no-repeat center center fixed;
+	background-color:#142124;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment: fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -299,11 +302,11 @@ main {
 	opacity:0.0;
 	filter:alpha(opacity=0);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#FFFFFF);
-    -moz-transition: opacity  0.5s linear;
-    -webkit-transition: opacity 0.5s linear;
-    -o-transition: opacity  0.5s linear;
-    -ms-transition: opacity 0.5s linear;
-    transition: opacity 0.5s linear;
+    -moz-transition: opacity  0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
+    -o-transition: opacity  0.5s ease;
+    -ms-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
 	background: rgba(6,16,18,0.65);
 }
 
@@ -328,11 +331,11 @@ main {
 	font-weight: 400;
 	text-transform: uppercase;
 	padding:96px 0px 12px;
-	-moz-transition: padding  0.5s linear;
-    -webkit-transition: padding 0.5s linear;
-    -o-transition: padding  0.5s linear;
-    -ms-transition: padding 0.5s linear;
-    transition: padding 0.5s linear;
+	-moz-transition: padding  0.5s ease;
+    -webkit-transition: padding 0.5s ease;
+    -o-transition: padding  0.5s ease;
+    -ms-transition: padding 0.5s ease;
+    transition: padding 0.5s ease;
 }
 
 .frame:hover .thumbtext h1 {
@@ -357,11 +360,179 @@ main {
 	width: 320px;
 	min-height: 320px;
 	padding:12px 12px 48px;
+	text-align: center;
 }
 
-.lightbox img {
-	width: 296px;
+.lightbox .wpimg {
+	width: 100%;
 	height: auto;
+}
+
+.lightbox .modaltext {
+	position: relative;
+}
+
+.lightbox .modaltext .close {
+	color: #FFF;
+	font-size: 24px;
+	opacity:0.25;
+	filter:alpha(opacity=25);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#FFFFFF);
+    -moz-transition: opacity  0.25s ease;
+    -webkit-transition: opacity 0.25s ease;
+    -o-transition: opacity  0.25s ease;
+    -ms-transition: opacity 0.25s ease;
+    transition: opacity 0.25s ease;
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.lightbox .modaltext .close:hover {
+	opacity:1.0;
+	filter:alpha(opacity=100);
+}
+
+.lightbox .modaltext h1 {
+	color: #FFF;
+	font-weight: 400;
+	line-height: 1em;
+	font-size: 32px;
+	text-transform: uppercase;
+	padding:24px 0px 12px;
+}
+
+.lightbox .modaltext h2 {
+	color: #F7C760;
+	text-transform: uppercase;
+	padding-bottom: 12px;
+}
+
+.lightbox .modaltext .downloads {
+	padding: 6px 0px;
+	border-top: solid 1px #142124;
+	border-bottom: solid 1px #142124;
+}
+
+.lightbox .modaltext .downloads .screen {
+	padding: 6px 0px;
+	vertical-align: middle;
+}
+
+.lightbox .modaltext .downloads .screen i {
+	font-size: 2em;
+	line-height: 1.5em;
+	padding-right: 12px;
+	vertical-align: middle;
+}
+
+.lightbox .modaltext .downloads .screen a {
+	text-transform: uppercase;
+	color: #FFF;
+}
+
+.lightbox .modaltext .downloads .screen a:hover {
+	color: #F7C760;
+}
+
+.lightbox .modaltext .artist {
+	padding-top: 24px;
+}
+
+.lightbox .modaltext .artist .ss-icon {
+	vertical-align: top;
+	color: #FFF;
+	padding:0px 6px;
+}
+
+.lightbox .modaltext .artist .social {
+	width: 100%;
+}
+
+.lightbox .modaltext .artist .social form {
+	display: inline-block;
+}
+
+.lightbox .modaltext .artist .social form .tip {
+	font-family: 'Ruda', sans-serif;
+	padding:24px 12px;
+	font-size: 18px;
+	line-height: 1.3em;
+	text-align: center;
+	border: none;
+	background: #142124;
+	color: #FFF;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-right: 1px;
+	-moz-transition: background  0.25s ease;
+    -webkit-transition: background 0.25s ease;
+    -o-transition: background  0.25s ease;
+    -ms-transition: background 0.25s ease;
+    transition: background 0.25s ease;
+}
+
+.lightbox .modaltext .artist .social form .tip:hover {
+	background: #F7C760;
+}
+
+.lightbox .modaltext .artist .social a {
+	padding:24px 12px;
+	font-size: 18px;
+	line-height: 1.3em;
+	text-align: center;
+	background: #142124;
+	color: #FFF;
+	display: inline-block;
+	margin-right: 1px;
+	-moz-transition: background  0.25s ease;
+    -webkit-transition: background 0.25s ease;
+    -o-transition: background  0.25s ease;
+    -ms-transition: background 0.25s ease;
+    transition: background 0.25s ease;
+}
+
+.lightbox .modaltext .artist .social a:hover {
+	background: #F7C760;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------- Footer styles */
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+.footer-wrap {
+	background: #061012;
+}
+
+.footer-wrap .wrapper {
+	padding: 96px 0px;
+}
+
+.footer-wrap h1 {
+	color: #FFF;
+	font-weight: 400;
+	line-height: 1em;
+	font-size: 32px;
+	text-transform: uppercase;
+	padding-bottom:24px;
+}
+
+.footer-wrap .wrapper .about, .footer-wrap .wrapper .connect {
+	padding:12px;
+}
+
+.likes .share-fb, .likes .share-tweet, .likes .share-gplus {
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.likes .share-fb {
+	padding-right:24px;
+}
+
+.subfoot .wrapper {
+	padding: 12px 0px;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------- */
@@ -381,6 +552,30 @@ main {
 .gallery-item {
 	width: 50%;
 	float: left;
+}
+
+/*--- Lightbox ---*/
+
+.lightbox {
+	width: 480px;
+}
+
+.lightbox .modaltext .artist .social form .tip {
+	padding:24px 24px;
+}
+
+.lightbox .modaltext .artist .social a {
+	padding:24px 24px;
+}
+
+/*--- Footer ---*/
+
+.subfoot .wrapper .copy {
+	float: left;
+}
+
+.subfoot .wrapper .credit {
+	float: right;
 }
 
 }
@@ -426,6 +621,24 @@ main {
 	font-size: 72px;
 }
 
+/*--- Footer ---*/
+
+.footer-wrap .wrapper .about {
+	width: 420px;
+	float: left;
+	padding:12px 48px 12px 12px;
+}
+
+.footer-wrap .wrapper .connect {
+	width: 220px;
+	float: left;
+}
+
+.footer-wrap .wrapper .connect .logo {
+	width: 100%;
+	height: auto;
+}
+
 }
 
 /* ------------------------------------------------------------------------------------------------------------------- */
@@ -445,6 +658,40 @@ main {
 .gallery-item {
 	width: 33.3333333%;
 	float: left;
+}
+
+/*--- Lightbox ---*/
+
+.lightbox {
+	width: 100%;
+	height: 100%;
+	text-align: left;
+}
+
+.lightbox .wpimg {
+	height: 100%;
+	width: auto;
+	float: left;
+	margin-right: 48px;
+}
+
+.lightbox .modaltext {
+	width: 480px;
+	float: left;
+}
+
+/*--- Footer ---*/
+
+.footer-wrap .wrapper .about {
+	width: 540px;
+}
+
+.footer-wrap .wrapper .connect {
+	width: 420px;
+}
+
+.footer-wrap .wrapper .connect .logo {
+	width: 240px;
 }
 
 }

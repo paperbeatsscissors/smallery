@@ -9,5 +9,11 @@ $(document).ready(function() {
 		e.preventDefault();
 		return false;
 	});
+
+	$(".navlinks").localScroll({
+		queue:true,
+		duration:800,
+		hash:true
+	});
 	
 });

@@ -12,7 +12,7 @@
     
     	<?php include("includes/menu.php"); ?>
 
-    	<div class="splash">
+    	<div class="splash" style="background-image:url(../img/feat-bg.png);">
     		<header class="wrapper clearfix">
 
     			<h2>08.29.2013</h2>
@@ -25,7 +25,7 @@
     		</header>
     	</div>
 
-    	<main class="clearfix">
+    	<main id="gallery" class="clearfix">
 
     		<section id="modal1" class="gallery-item">
     			<div class="frame">
@@ -38,15 +38,52 @@
     			</div>
     		</section>
 
-            <div id="modal1" class="lightbox">
-                <img src="img/iphone.jpg">
+            <div id="modal1" class="lightbox clearfix">
+                    
+                    <img class="wpimg" src="img/iphone.jpg">
 
-                <h1>Zac Gorman</h1>
-                <h2>Captain Olimar</h2>
+                <div class="modaltext">
+                    <i class="ss-icon ss-gizmo close">close</i>
 
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+                    <h1>Zac Gorman</h1>
+                    <h2>Captain Olimar</h2>
+
+                    <div class="downloads">
+                        <div class="screen">
+                            <i class="ss-icon ss-gizmo">iphone</i>
+                            <a href="#">iPhone 5</a>
+                            <span>|</span>
+                            <a href="#">iPhone 4</a>
+                        </div>
+
+                        <div class="screen">
+                            <i class="ss-icon ss-gizmo">tablet</i>
+                            <a href="#">iPad</a>
+                            <span>|</span>
+                            <a href="#">Kindle</a>
+                        </div>
+                    </div>
+
+                    <div class="artist">
+                        <p><span class="ss-icon ss-gizmo">quote</span>I thought that the this first panel of this Pikmin comic might make a cool phone background so I took out text and sized a couple for you! If you have a phone with a different aspect ratio these should still work because they’re a little oversized and could be cropped easily!<span class="ss-icon ss-gizmo">unquote</span></p>
+
+                        <div class="social clearfix">
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_donations">
+                            <input type="hidden" name="business" value="paperbeatsscissors@gmail.com">
+                            <input type="hidden" name="lc" value="US">
+                            <input type="hidden" name="amount" value="1.00">
+                            <input type="hidden" name="currency_code" value="USD">
+                            <input type="hidden" name="no_note" value="0">
+                            <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_LG.gif:NonHostedGuest">
+                            <input class="tip" type="submit" border="0" name="submit" value="Tip the Artist $1" alt="PayPal - The safer, easier way to pay online!">
+                            </form><a target="_blank" href="#" class="ss-icon ss-social">facebook</a><a target="_blank" href="#" class="ss-icon ss-social">twitter</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
 
     		<section id="modal2" class="gallery-item">
