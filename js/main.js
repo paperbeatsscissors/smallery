@@ -4,7 +4,7 @@ $(document).ready(function() {
 		var modalId = $(this).attr("id");
 		$("div#"+modalId).lightbox_me({
 			centered: true,
-			overlayCSS: {background: '#061012', opacity: 0.98}
+			overlayCSS: {background: '#2f8c9a', opacity: 0.98}
 		});
 		e.preventDefault();
 		return false;

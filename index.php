@@ -16,10 +16,12 @@
     		<header class="wrapper clearfix">
 
     			<h2>08.29.2013</h2>
-    			<h1>Pikmin Pals</h1>
+    			<h1>Dinosaurs</h1>
 
     			<div class="description">
-    				<p>Explore the vast world of Pikmin through the eyes of the people who have been there.</p>
+    				<p>It doesn't get much cooler than dinosaurs, right? Check out some of these artists favorite dinos.
+                    Clever girl.
+                    </p>
     			</div>
 
     		</header>
@@ -29,7 +31,7 @@
 
     		<section id="modal1" class="gallery-item">
     			<div class="frame">
-    				<img class="thumbnail" src="img/iphone.jpg">
+    				<img class="thumbnail" src="img/iphone-tn.jpg">
 
     				<div class="thumbtext">
                         <h1>Zac Gorman</h1>
@@ -88,7 +90,7 @@
 
     		<section id="modal2" class="gallery-item">
     			<div class="frame">
-    				<img class="thumbnail" src="img/iphone.jpg">
+    				<img class="thumbnail" src="img/iphone2-tn.jpg">
 
     				<div class="thumbtext">
                         <h1>Zac Gorman</h1>
@@ -99,7 +101,7 @@
 
     		<section id="modal3" class="gallery-item">
     			<div class="frame">
-    				<img class="thumbnail" src="img/iphone.jpg">
+    				<img class="thumbnail" src="img/iphone-tn.jpg">
 
     				<div class="thumbtext">
                         <h1>Zac Gorman</h1>
@@ -110,7 +112,7 @@
 
     		<section id="modal4" class="gallery-item">
     			<div class="frame">
-    				<img class="thumbnail" src="img/iphone.jpg">
+    				<img class="thumbnail" src="img/iphone2-tn.jpg">
 
     				<div class="thumbtext">
                         <h1>Zac Gorman</h1>
@@ -121,7 +123,7 @@
 
             <section id="modal4" class="gallery-item">
                 <div class="frame">
-                    <img class="thumbnail" src="img/iphone.jpg">
+                    <img class="thumbnail" src="img/iphone-tn.jpg">
 
                     <div class="thumbtext">
                         <h1>Zac Gorman</h1>
@@ -132,7 +134,7 @@
 
             <section id="modal4" class="gallery-item">
                 <div class="frame">
-                    <img class="thumbnail" src="img/iphone.jpg">
+                    <img class="thumbnail" src="img/iphone2-tn.jpg">
 
                     <div class="thumbtext">
                         <h1>Zac Gorman</h1>
