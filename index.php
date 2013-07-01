@@ -12,7 +12,7 @@
     
     	<?php include("includes/menu.php"); ?>
 
-    	<div class="splash" style="background-image:url(../img/feat-bg.png);">
+    	<div class="splash" style="background-image:url('http://smallery.co/img/feat-bg.png');">
     		<header class="wrapper clearfix">
 
     			<h2>08.29.2013</h2>
@@ -34,8 +34,8 @@
     				<img class="thumbnail" src="img/iphone-tn.jpg">
 
     				<div class="thumbtext">
-                        <h1>Zac Gorman</h1>
-                        <h2>Captain Olimar</h2>
+                        <h1>Some Artist</h1>
+                        <h2>Super Dino Thing</h2>
     				</div>
     			</div>
     		</section>
@@ -47,8 +47,8 @@
                 <div class="modaltext">
                     <i class="ss-icon ss-gizmo close">close</i>
 
-                    <h1>Zac Gorman</h1>
-                    <h2>Captain Olimar</h2>
+                    <h1>Some Artist</h1>
+                    <h2>Super Dino Thing</h2>
 
                     <div class="downloads">
                         <div class="screen">
@@ -72,7 +72,7 @@
                         <div class="social clearfix">
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                             <input type="hidden" name="cmd" value="_donations">
-                            <input type="hidden" name="business" value="paperbeatsscissors@gmail.com">
+                            <input type="hidden" name="business" value="EMAIL">
                             <input type="hidden" name="lc" value="US">
                             <input type="hidden" name="amount" value="1.00">
                             <input type="hidden" name="currency_code" value="USD">
@@ -93,55 +93,295 @@
     				<img class="thumbnail" src="img/iphone2-tn.jpg">
 
     				<div class="thumbtext">
-                        <h1>Zac Gorman</h1>
-                        <h2>Captain Olimar</h2>
+                        <h1>Some Artist</h1>
+                        <h2>Super Dino Thing</h2>
     				</div>
     			</div>
     		</section>
+
+            <div id="modal2" class="lightbox clearfix">
+                    
+                    <img class="wpimg" src="img/iphone.jpg">
+
+                <div class="modaltext">
+                    <i class="ss-icon ss-gizmo close">close</i>
+
+                    <h1>Some Artist</h1>
+                    <h2>Super Dino Thing</h2>
+
+                    <div class="downloads">
+                        <div class="screen">
+                            <i class="ss-icon ss-gizmo">iphone</i>
+                            <a href="#">iPhone 5</a>
+                            <span>|</span>
+                            <a href="#">iPhone 4</a>
+                        </div>
+
+                        <div class="screen">
+                            <i class="ss-icon ss-gizmo">tablet</i>
+                            <a href="#">iPad</a>
+                            <span>|</span>
+                            <a href="#">Kindle</a>
+                        </div>
+                    </div>
+
+                    <div class="artist">
+                        <p><span class="ss-icon ss-gizmo">quote</span>I thought that the this first panel of this Pikmin comic might make a cool phone background so I took out text and sized a couple for you! If you have a phone with a different aspect ratio these should still work because they’re a little oversized and could be cropped easily!<span class="ss-icon ss-gizmo">unquote</span></p>
+
+                        <div class="social clearfix">
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_donations">
+                            <input type="hidden" name="business" value="EMAIL">
+                            <input type="hidden" name="lc" value="US">
+                            <input type="hidden" name="amount" value="1.00">
+                            <input type="hidden" name="currency_code" value="USD">
+                            <input type="hidden" name="no_note" value="0">
+                            <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_LG.gif:NonHostedGuest">
+                            <input class="tip" type="submit" border="0" name="submit" value="Tip the Artist $1" alt="PayPal - The safer, easier way to pay online!">
+                            </form><a target="_blank" href="#" class="ss-icon ss-social">facebook</a><a target="_blank" href="#" class="ss-icon ss-social">twitter</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
 
     		<section id="modal3" class="gallery-item">
     			<div class="frame">
     				<img class="thumbnail" src="img/iphone-tn.jpg">
 
     				<div class="thumbtext">
-                        <h1>Zac Gorman</h1>
-                        <h2>Captain Olimar</h2>
+                        <h1>Some Artist</h1>
+                        <h2>Super Dino Thing</h2>
     				</div>
     			</div>
     		</section>
+
+            <div id="modal3" class="lightbox clearfix">
+                    
+                    <img class="wpimg" src="img/iphone.jpg">
+
+                <div class="modaltext">
+                    <i class="ss-icon ss-gizmo close">close</i>
+
+                    <h1>Some Artist</h1>
+                    <h2>Super Dino Thing</h2>
+
+                    <div class="downloads">
+                        <div class="screen">
+                            <i class="ss-icon ss-gizmo">iphone</i>
+                            <a href="#">iPhone 5</a>
+                            <span>|</span>
+                            <a href="#">iPhone 4</a>
+                        </div>
+
+                        <div class="screen">
+                            <i class="ss-icon ss-gizmo">tablet</i>
+                            <a href="#">iPad</a>
+                            <span>|</span>
+                            <a href="#">Kindle</a>
+                        </div>
+                    </div>
+
+                    <div class="artist">
+                        <p><span class="ss-icon ss-gizmo">quote</span>I thought that the this first panel of this Pikmin comic might make a cool phone background so I took out text and sized a couple for you! If you have a phone with a different aspect ratio these should still work because they’re a little oversized and could be cropped easily!<span class="ss-icon ss-gizmo">unquote</span></p>
+
+                        <div class="social clearfix">
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_donations">
+                            <input type="hidden" name="business" value="EMAIL">
+                            <input type="hidden" name="lc" value="US">
+                            <input type="hidden" name="amount" value="1.00">
+                            <input type="hidden" name="currency_code" value="USD">
+                            <input type="hidden" name="no_note" value="0">
+                            <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_LG.gif:NonHostedGuest">
+                            <input class="tip" type="submit" border="0" name="submit" value="Tip the Artist $1" alt="PayPal - The safer, easier way to pay online!">
+                            </form><a target="_blank" href="#" class="ss-icon ss-social">facebook</a><a target="_blank" href="#" class="ss-icon ss-social">twitter</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
 
     		<section id="modal4" class="gallery-item">
     			<div class="frame">
     				<img class="thumbnail" src="img/iphone2-tn.jpg">
 
     				<div class="thumbtext">
-                        <h1>Zac Gorman</h1>
-                        <h2>Captain Olimar</h2>
+                        <h1>Some Artist</h1>
+                        <h2>Super Dino Thing</h2>
     				</div>
     			</div>
     		</section>
 
-            <section id="modal4" class="gallery-item">
+            <div id="modal4" class="lightbox clearfix">
+                    
+                    <img class="wpimg" src="img/iphone.jpg">
+
+                <div class="modaltext">
+                    <i class="ss-icon ss-gizmo close">close</i>
+
+                    <h1>Some Artist</h1>
+                    <h2>Super Dino Thing</h2>
+
+                    <div class="downloads">
+                        <div class="screen">
+                            <i class="ss-icon ss-gizmo">iphone</i>
+                            <a href="#">iPhone 5</a>
+                            <span>|</span>
+                            <a href="#">iPhone 4</a>
+                        </div>
+
+                        <div class="screen">
+                            <i class="ss-icon ss-gizmo">tablet</i>
+                            <a href="#">iPad</a>
+                            <span>|</span>
+                            <a href="#">Kindle</a>
+                        </div>
+                    </div>
+
+                    <div class="artist">
+                        <p><span class="ss-icon ss-gizmo">quote</span>I thought that the this first panel of this Pikmin comic might make a cool phone background so I took out text and sized a couple for you! If you have a phone with a different aspect ratio these should still work because they’re a little oversized and could be cropped easily!<span class="ss-icon ss-gizmo">unquote</span></p>
+
+                        <div class="social clearfix">
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_donations">
+                            <input type="hidden" name="business" value="EMAIL">
+                            <input type="hidden" name="lc" value="US">
+                            <input type="hidden" name="amount" value="1.00">
+                            <input type="hidden" name="currency_code" value="USD">
+                            <input type="hidden" name="no_note" value="0">
+                            <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_LG.gif:NonHostedGuest">
+                            <input class="tip" type="submit" border="0" name="submit" value="Tip the Artist $1" alt="PayPal - The safer, easier way to pay online!">
+                            </form><a target="_blank" href="#" class="ss-icon ss-social">facebook</a><a target="_blank" href="#" class="ss-icon ss-social">twitter</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <section id="modal5" class="gallery-item">
                 <div class="frame">
                     <img class="thumbnail" src="img/iphone-tn.jpg">
 
                     <div class="thumbtext">
-                        <h1>Zac Gorman</h1>
-                        <h2>Captain Olimar</h2>
+                        <h1>Some Artist</h1>
+                        <h2>Super Dino Thing</h2>
                     </div>
                 </div>
             </section>
 
-            <section id="modal4" class="gallery-item">
+            <div id="modal5" class="lightbox clearfix">
+                    
+                    <img class="wpimg" src="img/iphone.jpg">
+
+                <div class="modaltext">
+                    <i class="ss-icon ss-gizmo close">close</i>
+
+                    <h1>Some Artist</h1>
+                    <h2>Super Dino Thing</h2>
+
+                    <div class="downloads">
+                        <div class="screen">
+                            <i class="ss-icon ss-gizmo">iphone</i>
+                            <a href="#">iPhone 5</a>
+                            <span>|</span>
+                            <a href="#">iPhone 4</a>
+                        </div>
+
+                        <div class="screen">
+                            <i class="ss-icon ss-gizmo">tablet</i>
+                            <a href="#">iPad</a>
+                            <span>|</span>
+                            <a href="#">Kindle</a>
+                        </div>
+                    </div>
+
+                    <div class="artist">
+                        <p><span class="ss-icon ss-gizmo">quote</span>I thought that the this first panel of this Pikmin comic might make a cool phone background so I took out text and sized a couple for you! If you have a phone with a different aspect ratio these should still work because they’re a little oversized and could be cropped easily!<span class="ss-icon ss-gizmo">unquote</span></p>
+
+                        <div class="social clearfix">
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_donations">
+                            <input type="hidden" name="business" value="EMAIL">
+                            <input type="hidden" name="lc" value="US">
+                            <input type="hidden" name="amount" value="1.00">
+                            <input type="hidden" name="currency_code" value="USD">
+                            <input type="hidden" name="no_note" value="0">
+                            <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_LG.gif:NonHostedGuest">
+                            <input class="tip" type="submit" border="0" name="submit" value="Tip the Artist $1" alt="PayPal - The safer, easier way to pay online!">
+                            </form><a target="_blank" href="#" class="ss-icon ss-social">facebook</a><a target="_blank" href="#" class="ss-icon ss-social">twitter</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <section id="modal6" class="gallery-item">
                 <div class="frame">
                     <img class="thumbnail" src="img/iphone2-tn.jpg">
 
                     <div class="thumbtext">
-                        <h1>Zac Gorman</h1>
-                        <h2>Captain Olimar</h2>
+                        <h1>Some Artist</h1>
+                        <h2>Super Dino Thing</h2>
                     </div>
                 </div>
             </section>
+
+            <div id="modal6" class="lightbox clearfix">
+                    
+                    <img class="wpimg" src="img/iphone.jpg">
+
+                <div class="modaltext">
+                    <i class="ss-icon ss-gizmo close">close</i>
+
+                    <h1>Some Artist</h1>
+                    <h2>Super Dino Thing</h2>
+
+                    <div class="downloads">
+                        <div class="screen">
+                            <i class="ss-icon ss-gizmo">iphone</i>
+                            <a href="#">iPhone 5</a>
+                            <span>|</span>
+                            <a href="#">iPhone 4</a>
+                        </div>
+
+                        <div class="screen">
+                            <i class="ss-icon ss-gizmo">tablet</i>
+                            <a href="#">iPad</a>
+                            <span>|</span>
+                            <a href="#">Kindle</a>
+                        </div>
+                    </div>
+
+                    <div class="artist">
+                        <p><span class="ss-icon ss-gizmo">quote</span>I thought that the this first panel of this Pikmin comic might make a cool phone background so I took out text and sized a couple for you! If you have a phone with a different aspect ratio these should still work because they’re a little oversized and could be cropped easily!<span class="ss-icon ss-gizmo">unquote</span></p>
+
+                        <div class="social clearfix">
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_donations">
+                            <input type="hidden" name="business" value="EMAIL">
+                            <input type="hidden" name="lc" value="US">
+                            <input type="hidden" name="amount" value="1.00">
+                            <input type="hidden" name="currency_code" value="USD">
+                            <input type="hidden" name="no_note" value="0">
+                            <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_LG.gif:NonHostedGuest">
+                            <input class="tip" type="submit" border="0" name="submit" value="Tip the Artist $1" alt="PayPal - The safer, easier way to pay online!">
+                            </form><a target="_blank" href="#" class="ss-icon ss-social">facebook</a><a target="_blank" href="#" class="ss-icon ss-social">twitter</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
 
     	</main>
 

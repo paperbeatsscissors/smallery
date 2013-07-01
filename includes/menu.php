@@ -14,7 +14,7 @@
 <div class="menu-wrap">
    <nav class="menu wrapper clearfix">
 
-      <a class="logo" href="#"><img title="Smallery" alt="Smallery" src="img/logo.svg"> smallery</a>
+      <a class="logo" href="http://smallery.co"><img title="Smallery" alt="Smallery" src="img/logo.svg"> smallery</a>
 
       <div class="navlinks">
          <a href="#gallery">Gallery</a>
