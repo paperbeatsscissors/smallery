@@ -67,7 +67,7 @@
                     </div>
 
                     <div class="artist">
-                        <p><span class="ss-icon ss-gizmo">quote</span>I thought that the this first panel of this Pikmin comic might make a cool phone background so I took out text and sized a couple for you! If you have a phone with a different aspect ratio these should still work because they’re a little oversized and could be cropped easily!<span class="ss-icon ss-gizmo">unquote</span></p>
+                        <p><span class="ss-icon ss-gizmo">quote</span>Some really cool dinosaur dudes just hangin out and stuff. These guys have lots of friends!<span class="ss-icon ss-gizmo">unquote</span></p>
 
                         <div class="social clearfix">
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -101,7 +101,7 @@
 
             <div id="modal2" class="lightbox clearfix">
                     
-                    <img class="wpimg" src="img/iphone.jpg">
+                    <img class="wpimg" src="img/iphone2.jpg">
 
                 <div class="modaltext">
                     <i class="ss-icon ss-gizmo close">close</i>
@@ -126,7 +126,7 @@
                     </div>
 
                     <div class="artist">
-                        <p><span class="ss-icon ss-gizmo">quote</span>I thought that the this first panel of this Pikmin comic might make a cool phone background so I took out text and sized a couple for you! If you have a phone with a different aspect ratio these should still work because they’re a little oversized and could be cropped easily!<span class="ss-icon ss-gizmo">unquote</span></p>
+                        <p><span class="ss-icon ss-gizmo">quote</span>Some really cool dinosaur dudes just hangin out and stuff. These guys have lots of friends!<span class="ss-icon ss-gizmo">unquote</span></p>
 
                         <div class="social clearfix">
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -185,7 +185,7 @@
                     </div>
 
                     <div class="artist">
-                        <p><span class="ss-icon ss-gizmo">quote</span>I thought that the this first panel of this Pikmin comic might make a cool phone background so I took out text and sized a couple for you! If you have a phone with a different aspect ratio these should still work because they’re a little oversized and could be cropped easily!<span class="ss-icon ss-gizmo">unquote</span></p>
+                        <p><span class="ss-icon ss-gizmo">quote</span>Some really cool dinosaur dudes just hangin out and stuff. These guys have lots of friends!<span class="ss-icon ss-gizmo">unquote</span></p>
 
                         <div class="social clearfix">
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -219,7 +219,7 @@
 
             <div id="modal4" class="lightbox clearfix">
                     
-                    <img class="wpimg" src="img/iphone.jpg">
+                    <img class="wpimg" src="img/iphone2.jpg">
 
                 <div class="modaltext">
                     <i class="ss-icon ss-gizmo close">close</i>
@@ -244,7 +244,7 @@
                     </div>
 
                     <div class="artist">
-                        <p><span class="ss-icon ss-gizmo">quote</span>I thought that the this first panel of this Pikmin comic might make a cool phone background so I took out text and sized a couple for you! If you have a phone with a different aspect ratio these should still work because they’re a little oversized and could be cropped easily!<span class="ss-icon ss-gizmo">unquote</span></p>
+                        <p><span class="ss-icon ss-gizmo">quote</span>Some really cool dinosaur dudes just hangin out and stuff. These guys have lots of friends!<span class="ss-icon ss-gizmo">unquote</span></p>
 
                         <div class="social clearfix">
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -303,7 +303,7 @@
                     </div>
 
                     <div class="artist">
-                        <p><span class="ss-icon ss-gizmo">quote</span>I thought that the this first panel of this Pikmin comic might make a cool phone background so I took out text and sized a couple for you! If you have a phone with a different aspect ratio these should still work because they’re a little oversized and could be cropped easily!<span class="ss-icon ss-gizmo">unquote</span></p>
+                        <p><span class="ss-icon ss-gizmo">quote</span>Some really cool dinosaur dudes just hangin out and stuff. These guys have lots of friends!<span class="ss-icon ss-gizmo">unquote</span></p>
 
                         <div class="social clearfix">
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -337,7 +337,7 @@
 
             <div id="modal6" class="lightbox clearfix">
                     
-                    <img class="wpimg" src="img/iphone.jpg">
+                    <img class="wpimg" src="img/iphone2.jpg">
 
                 <div class="modaltext">
                     <i class="ss-icon ss-gizmo close">close</i>
@@ -362,7 +362,7 @@
                     </div>
 
                     <div class="artist">
-                        <p><span class="ss-icon ss-gizmo">quote</span>I thought that the this first panel of this Pikmin comic might make a cool phone background so I took out text and sized a couple for you! If you have a phone with a different aspect ratio these should still work because they’re a little oversized and could be cropped easily!<span class="ss-icon ss-gizmo">unquote</span></p>
+                        <p><span class="ss-icon ss-gizmo">quote</span>Some really cool dinosaur dudes just hangin out and stuff. These guys have lots of friends!<span class="ss-icon ss-gizmo">unquote</span></p>
 
                         <div class="social clearfix">
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">

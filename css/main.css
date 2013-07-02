@@ -73,10 +73,10 @@ a:hover, a:active {
 }
 
 ::selection {
-	background:rgba(255,113,113,0.5);
+	background:rgba(116,35,0,0.5);
 	}
 ::-moz-selection {
-	background:rgba(255,113,113,0.5);
+	background:rgba(116,35,0,0.5);
 }
 
 p { margin-bottom:1em; } p:last-child { margin-bottom:0; }
@@ -110,6 +110,7 @@ h2 {
 .menu-wrap{
 	width: 100%;
 	background: #f05724;
+	border-bottom: solid 1px #dd4420;
 }
 
 .menu {
@@ -546,6 +547,53 @@ main {
 
 .subfoot .wrapper {
 	padding: 12px 0px;
+}
+
+.subfoot .wrapper .copy, .subfoot .wrapper .credit {
+	padding:12px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------- Template styles */
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+.template {
+	padding: 48px 0px;
+}
+
+.template h1 {
+	text-transform: uppercase;
+	padding-bottom: 24px;
+	font-weight: 400;
+}
+
+.template h1 i {
+	color: #FFF;
+	vertical-align: middle;
+	font-size: 1.5em;
+	line-height: 1.3em;
+	display: block;
+}
+
+.btn {
+	padding:24px 48px;
+	font-size: 18px;
+	line-height: 1.3em;
+	text-align: center;
+	background: #dd4420;
+	color: #FFF;
+	display: inline-block;
+	margin-right: 1px;
+	-moz-transition: background  0.25s ease;
+    -webkit-transition: background 0.25s ease;
+    -o-transition: background  0.25s ease;
+    -ms-transition: background 0.25s ease;
+    transition: background 0.25s ease;
+}
+
+.btn:hover {
+	color: #FFF;
+	background: #aa2c00;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------- */
