@@ -6,6 +6,8 @@
     <head>
     
         <?php include("includes/header.php"); ?>
+
+        <link rel="stylesheet" href="http://smallery.co/css/theme.css">
         
     </head>
     <body>
