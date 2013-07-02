@@ -285,8 +285,8 @@ main {
 	top: 0px;
 	left: 0px;
 	z-index: 1;
-	opacity:0.5;
-	filter:alpha(opacity=50);
+	opacity:0.75;
+	filter:alpha(opacity=75);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#FFFFFF);
 	-webkit-animation: blurout 0.5s ease;
 	-moz-animation: blurout 0.5s ease;
@@ -311,7 +311,7 @@ main {
     -o-transition: opacity  0.5s ease;
     -ms-transition: opacity 0.5s ease;
     transition: opacity 0.5s ease;
-	background: rgba(221,68,32,0.65);
+	background: rgba(221,68,32,0.85);
 }
 
 .frame:hover .thumbnail {

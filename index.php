@@ -31,7 +31,7 @@
 
     		<section id="modal1" class="gallery-item">
     			<div class="frame">
-    				<img class="thumbnail" src="img/iphone-tn.jpg">
+    				<img class="thumbnail" src="img/iphone.jpg">
 
     				<div class="thumbtext">
                         <h1>Some Artist</h1>
@@ -90,7 +90,7 @@
 
     		<section id="modal2" class="gallery-item">
     			<div class="frame">
-    				<img class="thumbnail" src="img/iphone2-tn.jpg">
+    				<img class="thumbnail" src="img/iphone2.jpg">
 
     				<div class="thumbtext">
                         <h1>Some Artist</h1>
@@ -149,7 +149,7 @@
 
     		<section id="modal3" class="gallery-item">
     			<div class="frame">
-    				<img class="thumbnail" src="img/iphone-tn.jpg">
+    				<img class="thumbnail" src="img/iphone.jpg">
 
     				<div class="thumbtext">
                         <h1>Some Artist</h1>
@@ -208,7 +208,7 @@
 
     		<section id="modal4" class="gallery-item">
     			<div class="frame">
-    				<img class="thumbnail" src="img/iphone2-tn.jpg">
+    				<img class="thumbnail" src="img/iphone2.jpg">
 
     				<div class="thumbtext">
                         <h1>Some Artist</h1>
@@ -267,7 +267,7 @@
 
             <section id="modal5" class="gallery-item">
                 <div class="frame">
-                    <img class="thumbnail" src="img/iphone-tn.jpg">
+                    <img class="thumbnail" src="img/iphone.jpg">
 
                     <div class="thumbtext">
                         <h1>Some Artist</h1>
@@ -326,7 +326,7 @@
 
             <section id="modal6" class="gallery-item">
                 <div class="frame">
-                    <img class="thumbnail" src="img/iphone2-tn.jpg">
+                    <img class="thumbnail" src="img/iphone2.jpg">
 
                     <div class="thumbtext">
                         <h1>Some Artist</h1>
