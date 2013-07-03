@@ -7,22 +7,21 @@
     
         <?php include("includes/header.php"); ?>
 
-        <link rel="stylesheet" href="http://smallery.co/css/theme.css">
+        <link rel="stylesheet" href="http://smallery.co/booty-patrol/theme.css">
         
     </head>
     <body>
     
     	<?php include("includes/menu.php"); ?>
 
-    	<div class="splash" style="background-image:url('http://smallery.co/img/feat-bg.png');">
+    	<div class="splash" style="background-image:url('http://smallery.co/booty-patrol/bg.png');">
     		<header class="wrapper clearfix">
 
-    			<h2>08.29.2013</h2>
-    			<h1>Dinosaurs</h1>
+    			<h2>08.01.2013 - 08.31.2013</h2>
+    			<h1>Booty Patrol</h1>
 
     			<div class="description">
-    				<p>It doesn't get much cooler than dinosaurs, right? Check out some of these artists favorite dinos.
-                    Clever girl.
+    				<p>We like big butts and we cannot lie.
                     </p>
     			</div>
 
