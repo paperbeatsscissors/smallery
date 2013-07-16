@@ -14,15 +14,17 @@
 			<g>
 				<g>
 					<g>
-						<defs>
-							<path id="SVGID_1_" d="M198,278.1c0,2.982-2.418,5.4-5.4,5.4H23.4c-2.982,0-5.4-2.418-5.4-5.4V36.9
-								c0-2.982,2.417-5.4,5.4-5.4h169.2c2.982,0,5.4,2.417,5.4,5.4V278.1L198,278.1z"/>
-						</defs>
-						<clipPath id="SVGID_2_">
-							<use xlink:href="#SVGID_1_"  overflow="visible"/>
-						</clipPath>
-						<path clip-path="url(#SVGID_2_)" fill="#FFFFFF" d="M198,278.1c0,2.982-2.418,5.4-5.4,5.4H23.4c-2.982,0-5.4-2.418-5.4-5.4
-							V36.9c0-2.982,2.417-5.4,5.4-5.4h169.2c2.982,0,5.4,2.417,5.4,5.4V278.1L198,278.1z"/>
+						<g>
+							<defs>
+								<path id="SVGID_1_" d="M198,278.1c0,2.982-2.418,5.4-5.4,5.4H23.4c-2.982,0-5.4-2.418-5.4-5.4V36.9
+									c0-2.982,2.417-5.4,5.4-5.4h169.2c2.982,0,5.4,2.417,5.4,5.4V278.1L198,278.1z"/>
+							</defs>
+							<clipPath id="SVGID_2_">
+								<use xlink:href="#SVGID_1_"  overflow="visible"/>
+							</clipPath>
+							<path clip-path="url(#SVGID_2_)" fill="#FFFFFF" d="M198,278.1c0,2.982-2.418,5.4-5.4,5.4H23.4c-2.982,0-5.4-2.418-5.4-5.4
+								V36.9c0-2.982,2.417-5.4,5.4-5.4h169.2c2.982,0,5.4,2.417,5.4,5.4V278.1L198,278.1z"/>
+						</g>
 					</g>
 				</g>
 			</g>
@@ -33,14 +35,16 @@
 			<g>
 				<g>
 					<g>
-						<defs>
-							<path id="SVGID_3_" d="M198,278.1c0,2.982-2.418,5.4-5.4,5.4H23.4c-2.982,0-5.4-2.418-5.4-5.4V36.9
-								c0-2.982,2.417-5.4,5.4-5.4h169.2c2.982,0,5.4,2.417,5.4,5.4V278.1L198,278.1z"/>
-						</defs>
-						<clipPath id="SVGID_4_">
-							<use xlink:href="#SVGID_3_"  overflow="visible"/>
-						</clipPath>
-						<rect x="155.25" y="198" clip-path="url(#SVGID_4_)" fill="#F7C760" width="22.5" height="45"/>
+						<g>
+							<defs>
+								<path id="SVGID_3_" d="M198,278.1c0,2.982-2.418,5.4-5.4,5.4H23.4c-2.982,0-5.4-2.418-5.4-5.4V36.9
+									c0-2.982,2.417-5.4,5.4-5.4h169.2c2.982,0,5.4,2.417,5.4,5.4V278.1L198,278.1z"/>
+							</defs>
+							<clipPath id="SVGID_4_">
+								<use xlink:href="#SVGID_3_"  overflow="visible"/>
+							</clipPath>
+							<rect x="155.25" y="198" clip-path="url(#SVGID_4_)" fill="#F7C760" width="22.5" height="45"/>
+						</g>
 					</g>
 				</g>
 			</g>
@@ -51,14 +55,16 @@
 			<g>
 				<g>
 					<g>
-						<defs>
-							<path id="SVGID_5_" d="M198,278.1c0,2.982-2.418,5.4-5.4,5.4H23.4c-2.982,0-5.4-2.418-5.4-5.4V36.9
-								c0-2.982,2.417-5.4,5.4-5.4h169.2c2.982,0,5.4,2.417,5.4,5.4V278.1L198,278.1z"/>
-						</defs>
-						<clipPath id="SVGID_6_">
-							<use xlink:href="#SVGID_5_"  overflow="visible"/>
-						</clipPath>
-						<rect x="36" y="200.25" clip-path="url(#SVGID_6_)" fill="#AA2C00" width="81" height="40.5"/>
+						<g>
+							<defs>
+								<path id="SVGID_5_" d="M198,278.1c0,2.982-2.418,5.4-5.4,5.4H23.4c-2.982,0-5.4-2.418-5.4-5.4V36.9
+									c0-2.982,2.417-5.4,5.4-5.4h169.2c2.982,0,5.4,2.417,5.4,5.4V278.1L198,278.1z"/>
+							</defs>
+							<clipPath id="SVGID_6_">
+								<use xlink:href="#SVGID_5_"  overflow="visible"/>
+							</clipPath>
+							<rect x="36" y="200.25" clip-path="url(#SVGID_6_)" fill="#DD4017" width="81" height="40.5"/>
+						</g>
 					</g>
 				</g>
 			</g>
@@ -69,14 +75,16 @@
 			<g>
 				<g>
 					<g>
-						<defs>
-							<path id="SVGID_7_" d="M198,278.1c0,2.982-2.418,5.4-5.4,5.4H23.4c-2.982,0-5.4-2.418-5.4-5.4V36.9
-								c0-2.982,2.417-5.4,5.4-5.4h169.2c2.982,0,5.4,2.417,5.4,5.4V278.1L198,278.1z"/>
-						</defs>
-						<clipPath id="SVGID_8_">
-							<use xlink:href="#SVGID_7_"  overflow="visible"/>
-						</clipPath>
-						<rect x="118.125" y="54" clip-path="url(#SVGID_8_)" fill="#FC7C36" width="60.75" height="81"/>
+						<g>
+							<defs>
+								<path id="SVGID_7_" d="M198,278.1c0,2.982-2.418,5.4-5.4,5.4H23.4c-2.982,0-5.4-2.418-5.4-5.4V36.9
+									c0-2.982,2.417-5.4,5.4-5.4h169.2c2.982,0,5.4,2.417,5.4,5.4V278.1L198,278.1z"/>
+							</defs>
+							<clipPath id="SVGID_8_">
+								<use xlink:href="#SVGID_7_"  overflow="visible"/>
+							</clipPath>
+							<rect x="118.125" y="54" clip-path="url(#SVGID_8_)" fill="#278EE2" width="60.75" height="81"/>
+						</g>
 					</g>
 				</g>
 			</g>

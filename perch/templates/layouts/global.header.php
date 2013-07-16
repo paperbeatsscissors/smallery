@@ -1,9 +1,3 @@
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Smallery</title>
-<meta name="description" content="">
-<meta name="viewport" content="width=device-width">
-
 <!-- ICONS -->
 <link rel="shortcut icon" href="http://smallery.co/favicon.ico" />
 <link rel="apple-touch-icon" sizes="144x144" href="http://smallery.co/apple-touch-icon-144x144-precomposed.png" />

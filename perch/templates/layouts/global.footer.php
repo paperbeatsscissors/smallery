@@ -53,7 +53,7 @@
 
 		<section class="connect">
 
-			<img class="logo" title="Smallery" alt="Smallery" src="img/logo.png">
+			<img class="logo" title="Smallery" alt="Smallery" src="http://smallery.co/img/logo.png">
 
 		</section>
 

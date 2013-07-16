@@ -1,0 +1,67 @@
+<section id="<perch:content id="modalid" type="text" label="Modal ID" required="true" order="3" help="A unique ID for the lightbox." />" class="gallery-item">
+	<div class="frame">
+		<img class="thumbnail" src="<perch:content id="galleryimg" type="image" width="640" height="960" crop="false" quality="60" label="Gallery Image" required="true" order="4" help="This is the image that will be the thumb for this gallery item." />">
+
+		<div class="thumbtext">
+            <h1><perch:content id="artistname" type="text" label="Artist Name" required="true" order="1" /></h1>
+            <h2><perch:content id="piecetitle" type="text" label="Piece Title" required="true" order="2" /></h2>
+		</div>
+	</div>
+</section>
+
+<div id="<perch:content id="modalid" />" class="lightbox clearfix">
+        
+    <img class="wpimg" src="<perch:content id="galleryimg" />">
+
+    <div class="modaltext">
+        <i class="ss-icon ss-gizmo close">close</i>
+
+        <h1><perch:content id="artistname" /></h1>
+        <h2><perch:content id="piecetitle" /></h2>
+
+        <div class="downloads">
+            <div class="screen">
+                <i class="ss-icon ss-gizmo">iphone</i>
+
+                <a href="<perch:content id="iphone4" type="file" label="iPhone 4 Download" required="true" />">iPhone 4</a>
+
+                <perch:if exists="iphone5">
+                <span>|</span>
+                <a href="<perch:content id="iphone5" type="file" label="iPhone 5 Download" required="false" />">iPhone 5</a>
+                </perch:if>
+            </div>
+
+            <perch:if exists="ipad">
+            <div class="screen">
+                <i class="ss-icon ss-gizmo">tablet</i>
+                <a href="<perch:content id="ipad" type="file" label="iPad Download" required="false" />">iPad</a>
+            </div>
+            </perch:if>
+        </div>
+
+        <div class="artist">
+            <p>
+            <span class="ss-icon ss-gizmo">quote</span>
+            	<perch:content id="showdescription" type="textarea" label="Description Text" html="false" size="s" editor="markitup" required="true" help="A brief description of the show." />
+            <span class="ss-icon ss-gizmo">unquote</span>
+            </p>
+
+            <div class="social clearfix">
+            	<perch:if exists="paypal">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_donations">
+                <input type="hidden" name="business" value="<perch:content id="paypal" type="text" label="Artist Paypal Email" required="false" help="Optional email for artist to be tipped." />">
+                <input type="hidden" name="lc" value="US">
+                <input type="hidden" name="amount" value="1.00">
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="hidden" name="no_note" value="0">
+                <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_LG.gif:NonHostedGuest">
+                <input class="tip" type="submit" border="0" name="submit" value="Tip the Artist $1" alt="PayPal - The safer, easier way to pay online!">
+                </form></perch:if><perch:if exists="facebook"><a target="_blank" href="<perch:content id="facebook" type="text" label="Facebook" required="false" help="Optional social media links. Choose two." />" class="ss-icon ss-social">facebook</a></perch:if><perch:if exists="twitter"><a target="_blank" href="<perch:content id="twitter" type="text" label="Twitter" required="false" />" class="ss-icon ss-social">twitter</a></perch:if><perch:if exists="tumblr"><a target="_blank" href="<perch:content id="tumblr" type="text" label="Tumblr" required="false" />" class="ss-icon ss-social">tumblr</a></perch:if>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

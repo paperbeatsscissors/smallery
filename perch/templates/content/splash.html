@@ -1,0 +1,12 @@
+<div class="splash" style="background-image:url('<perch:content id="splashimg" type="image" width="1200" height="670" crop="true" quality="80" label="Splash Image" required="true" order="3" help="Upload a splash image. Should be a PNG at 25% opacity." />');">
+	<header class="wrapper clearfix">
+
+		<h2><perch:content id="showdate" type="text" label="Show Date" required="true" order="2" help="The date for the show. Presented in the following format: DD.MM.YYY - DD.MM.YYY" /></h2>
+		<h1><perch:content id="showtitle" type="text" label="Show Title" required="true" order="1" help="The title of the show." /></h1>
+
+		<div class="description">
+			<perch:content id="showdescription" type="textarea" label="Description Text" html="true" size="s" editor="redactor" required="true" help="A brief description of the show." />
+		</div>
+
+	</header>
+</div>
