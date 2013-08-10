@@ -40,6 +40,12 @@
 
             <a class="btn" href="http://smallery.co/templates/ipad-layout.zip">iPad</a>
         </section>
+
+        <section class="template">
+            <h1><i class="ss-icon ss-gizmo">desktop</i> Desktop Templates</h1>
+
+            <a class="btn" href="http://smallery.co/templates/desktop-layout.zip">2250 X 1266</a>
+        </section>
     </main>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>

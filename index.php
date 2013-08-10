@@ -21,11 +21,21 @@
     
     	<?php perch_layout('global.menu'); ?>
 
-    	<?php perch_content('Show Splash'); ?>
+    	<?php
+            perch_content_custom('Show Splash', array(
+                'page'=>'/shows/booty-patrol.php',
+                'template'=>'splash.html'
+            )); 
+        ?>
 
     	<main id="gallery" class="clearfix">
 
-    		<?php perch_content('Gallery Item'); ?>
+    		<?php
+                perch_content_custom('Gallery Item', array(
+                    'page'=>'/shows/booty-patrol.php',
+                    'template'=>'gallery_item.html'
+                )); 
+            ?>
 
     	</main>
 

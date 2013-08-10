@@ -10,7 +10,7 @@
 <link href="http://smallery.co/glyphs/ss-gizmo/ss-gizmo.css" rel="stylesheet" type="text/css" />
 <link href="http://smallery.co/glyphs/ss-social/ss-social.css" rel="stylesheet" type="text/css" />
 
-<link href='http://fonts.googleapis.com/css?family=Ruda:400,700,900' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
 
 <!-- Facebook -->
 <meta property="og:title" content="Smallery" />
@@ -27,3 +27,13 @@
 <meta itemprop="image" content="http://smallery.co/img/facebook.png">
 
 <script src="http://smallery.co/js/vendor/modernizr-2.6.2.min.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12550007-7', 'smallery.co');
+  ga('send', 'pageview');
+</script>

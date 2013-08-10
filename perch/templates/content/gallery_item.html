@@ -29,12 +29,24 @@
                 <span>|</span>
                 <a href="<perch:content id="iphone5" type="file" label="iPhone 5 Download" required="false" />">iPhone 5</a>
                 </perch:if>
+
+                <perch:if exists="android">
+                <span>|</span>
+                <a href="<perch:content id="android" type="file" label="Android Download" required="false" />">Android</a>
+                </perch:if>
             </div>
 
             <perch:if exists="ipad">
             <div class="screen">
                 <i class="ss-icon ss-gizmo">tablet</i>
                 <a href="<perch:content id="ipad" type="file" label="iPad Download" required="false" />">iPad</a>
+            </div>
+            </perch:if>
+
+            <perch:if exists="desktop">
+            <div class="screen">
+                <i class="ss-icon ss-gizmo">desktop</i>
+                <a href="<perch:content id="desktop" type="file" label="Desktop Download" required="false" />">Desktop</a>
             </div>
             </perch:if>
         </div>
@@ -57,7 +69,7 @@
                 <input type="hidden" name="no_note" value="0">
                 <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_LG.gif:NonHostedGuest">
                 <input class="tip" type="submit" border="0" name="submit" value="Tip the Artist $1" alt="PayPal - The safer, easier way to pay online!">
-                </form></perch:if><perch:if exists="facebook"><a target="_blank" href="<perch:content id="facebook" type="text" label="Facebook" required="false" help="Optional social media links. Choose two." />" class="ss-icon ss-social">facebook</a></perch:if><perch:if exists="twitter"><a target="_blank" href="<perch:content id="twitter" type="text" label="Twitter" required="false" />" class="ss-icon ss-social">twitter</a></perch:if><perch:if exists="tumblr"><a target="_blank" href="<perch:content id="tumblr" type="text" label="Tumblr" required="false" />" class="ss-icon ss-social">tumblr</a></perch:if>
+                </form></perch:if><perch:if exists="facebook"><a target="_blank" href="<perch:content id="facebook" type="text" label="Facebook" required="false" help="Optional social media links. Choose two." />" class="ss-icon ss-social">facebook</a></perch:if><perch:if exists="twitter"><a target="_blank" href="<perch:content id="twitter" type="text" label="Twitter" required="false" />" class="ss-icon ss-social">twitter</a></perch:if><perch:if exists="tumblr"><a target="_blank" href="<perch:content id="tumblr" type="text" label="Tumblr" required="false" />" class="ss-icon ss-social">tumblr</a></perch:if><perch:if exists="boysite"><a target="_blank" href="<perch:content id="boysite" type="text" label="Boy Website" required="false" />" class="ss-icon ss-gizmo">man</a></perch:if><perch:if exists="girlsite"><a target="_blank" href="<perch:content id="girlsite" type="text" label="Girl Website" required="false" />" class="ss-icon ss-gizmo">woman</a></perch:if>
             </div>
 
         </div>
